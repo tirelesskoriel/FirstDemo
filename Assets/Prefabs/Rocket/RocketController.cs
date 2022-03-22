@@ -20,8 +20,8 @@ public class RocketController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        FindGravitySource();
         _rocketBody = GetComponent<Rigidbody>();
+        FindGravitySource();
     }
 
     // Update is called once per frame
